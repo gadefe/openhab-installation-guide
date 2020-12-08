@@ -1,0 +1,37 @@
+THis is the installation resources
+
+https://www.openhab.org/docs/installation/openhabian.html
+
+Raspberry Pi (Prepackaged SD Card Image)
+Flash, plug, wait, enjoy: The provided image is based on the Raspberry Pi OS Lite (previously called Raspbian) standard system. On first boot, the system will set up openHAB and the mentioned settings and tools. All packages will be downloaded in their newest version and configured to work without further modifications. The whole process will take a few minutes, then openHAB and all other needed tools to get started will be ready to use without further configuration steps. openHABian is designed as a headless system, you will not need a display or a keyboard.
+
+Setup:
+
+Download the latest "openHABian" SD card image file (Note: the file is xz compressed)
+
+Write the image to your SD card (e.g. with Etcher, able to directly work with xz files)
+
+Insert the SD card into your Raspberry Pi, connect Ethernet (WiFi also supported) and power on.
+
+Wait approximately 15-45 minutes for openHABian to do its magic.
+(You can check the progress in your web-browser here.)
+
+Enjoy!
+
+The device will be available under its IP or via the local DNS name openhab
+
+Connect to the openHAB 2 dashboard: http://openhab:8080
+
+Connect to the Samba network shares with username openhabian and password openhabian
+
+Connect to the openHAB Log Viewer (frontail): http://openhab:9001
+
+If you encounter any setup problem, please continue here
+
+You can stop reading now, openHABian has installed and configured your openHAB system and you can start to use it right away. If you want to get in touch with the system or want to install one of the previously mentioned optional features, come back here later.
+
+Ready for more? Connect to your Raspberry Pi SSH console using the username openhabian and password openhabian. You will see the following welcome screen:
+
+openHABian login screen
+
+➜ Continue at the "openHABian Configuration Tool" chapter below!
