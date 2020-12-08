@@ -35,3 +35,13 @@ Ready for more? Connect to your Raspberry Pi SSH console using the username open
 openHABian login screen
 
 ➜ Continue at the "openHABian Configuration Tool" chapter below!
+
+after installation
+type  in the command prompt
+
+openhabian-config and press enter
+ go to configuration menu (02)Update System click Ok
+ got to (20) Optional Components 
+         (23) Mosquitto 
+         
+ 
