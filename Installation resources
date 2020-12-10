@@ -69,6 +69,16 @@ Port Number: 22
 Username: opehabian
 Password: openhabian
 
+goto openhabian directory:
+root>etc>openhab2
+  access to:
+     site folder
+     things folder
+     item folder
+     rules folder
+
+
+
 
 
 
