@@ -37,11 +37,49 @@ openHABian login screen
 ➜ Continue at the "openHABian Configuration Tool" chapter below!
 
 after installation
+install putty and connect to openhab
+
 type  in the command prompt
 
 openhabian-config and press enter
  go to configuration menu (02)Update System click Ok
  got to (20) Optional Components 
          (23) Mosquitto 
+         
+open the openhab interface using internet browser
+example http://192.168.1.10:8080
+
+
+************ MQTT Setup ****************
+
+go paper UI>add-on>bindings>mqtt bindings
+
+
+
+********** File Server Setup ***********
+
+WinSCP
+
+install WinSCP
+Configure WinSCP
+
+File Protocol: SFTP
+Hostname: 192.168.1.10
+Port Number: 22
+Username: opehabian
+Password: openhabian
+
+
+
+
+
+
+
+
+ 
+
+
+
+
          
  
