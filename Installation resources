@@ -72,10 +72,22 @@ Password: openhabian
 goto openhabian directory:
 root>etc>openhab2
   access to:
-     site folder
+     sitemaps folder
      things folder
      item folder
      rules folder
+     
+ enable access denied error to copy file going to openhab directory
+   - access openhab using ssh
+   command: sudo chmod 777 /etc/openhab2/items
+   command: sudo chmod 777 /etc/openhab2/sitemaps
+   command: sudo chmod 777 /etc/openhab2/rules
+   command: sudo chmod 777 /etc/openhab2/things
+   
+   
+ 
+     
+     
 
 
 
