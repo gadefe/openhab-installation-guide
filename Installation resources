@@ -57,6 +57,41 @@ example http://192.168.1.10:8080
 ************ MQTT Setup ****************
 
 go paper UI>add-on>bindings>mqtt bindings
+           >configuration>things>click the plus sign>mqttbinding>manually add thing> Generic Mqtt thing
+           Fill out:
+           Name:
+           Thing ID:
+           Bridge Selection: (note: if Mqtt broker is not installed select a bridge is empty)
+           Configuration parameters: (leave as default)
+           (To save configuration click the check button located upper left)
+           If every thing is ok the thing created will be available in the Thing list and the device is online.
+           
+           Open generic mqtt thing>channels>
+              channel type: Numbers (for sensor analog value)
+              channel ID:
+              label:
+              
+              Channel Configuration
+              Mqtt State topic: (this is subscriber topic)
+              
+                example: tele/tasmota2/SENSOR (for analog sensor)
+                         stat/tasmota2/power (for on-off switch)
+              
+              Mqtt Command Topic: (this is published topic)
+              
+                exapmle: cmnd/tasmota2/power (for on-off switch)
+                
+                custom On/Open value: 1
+                custom Off/Closed value: 0
+                
+              
+              Transform Values:
+                example: JSONPATH:$.DHT11.Temperature (for analog sensors)
+                
+           
+    
+           
+     
 
 
 
