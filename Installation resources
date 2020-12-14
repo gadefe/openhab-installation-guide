@@ -1,5 +1,9 @@
 ## THis is the installation resources
 
+
+***********openhab installation **************
+
+
 https://www.openhab.org/docs/installation/openhabian.html
 
 Raspberry Pi (Prepackaged SD Card Image)
@@ -53,6 +57,20 @@ example http://192.168.1.10:8080
 ************ MQTT Setup ****************
 
 go paper UI>add-on>bindings>mqtt bindings
+
+
+
+
+************ NTP setup **************
+go to paper UI> addon>bindings>ntp bindings
+      - go to inbox> add local time to things
+
+
+
+
+
+
+
 
 
 
