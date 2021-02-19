@@ -138,8 +138,22 @@ root>etc>openhab2
    command: sudo chmod 777 /etc/openhab2/things
    
    
+****************** RELAY MODULE SETUP *********************
+
+https://tasmota.github.io/docs/devices/LC-Technology-WiFi-Relay/
+https://templates.blakadder.com/LC-Relay-ESP01-2R-5V.html
+http://www.icstation.com/esp8266-wifi-channel-relay-module-remote-control-switch-wireless-transmitter-smart-home-p-13421.html   
  
-     
+Rule1
+ on System#Boot do Backlog Baudrate 9600; SerialSend5 0 endon
+ on Power1#State=1 do SerialSend5 A00101A2 endon
+ on Power1#State=0 do SerialSend5 A00100A1 endon
+ on Power2#State=1 do SerialSend5 A00201A3 endon
+ on Power2#State=0 do SerialSend5 A00200A2 endon
+ on Power3#State=1 do SerialSend5 A00301A4 endon
+ on Power3#State=0 do SerialSend5 A00300A3 endon
+ on Power4#State=1 do SerialSend5 A00401A5 endon
+ on Power4#State=0 do SerialSend5 A00400A4 endon     
      
 
 
