@@ -71,8 +71,10 @@ go paper UI>add-on>bindings>mqtt bindings
               channel ID:
               label:
               
-              Channel Configuration
-              Mqtt State topic: (this is subscriber topic)
+Channel Configuration
+things > chaannels > configure channels
+            * Mqtt State topic: (this is subscriber topic)
+                tele/tasmota_0DFD48/SENSOR
               
                 example: tele/tasmota2/SENSOR (for analog sensor)
                          stat/tasmota2/power (for on-off switch)
