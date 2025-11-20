@@ -157,7 +157,9 @@ Rule1
  on Power4#State=1 do SerialSend5 A00401A5 endon
  on Power4#State=0 do SerialSend5 A00400A4 endon     
      
+influxdb token
 
+EbfgKOVbBUksSVuU-sH1KK2Iu2uue8FBgyNgtF8MEaNaEcSqHtlfyGzGoJDT9IeMnF3akGRUKNbAnnuLsLWYjg==
 
 
 
